@@ -1,0 +1,88 @@
+/*--------------------------------------------------------------
+# Archive
+--------------------------------------------------------------*/
+#archive {
+  padding: 40px 0 60px 0;
+
+  .filter-object {
+    text-align: right;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+    select {
+      padding: 5px 50px;
+      border-radius: 5px;
+    }
+  }
+
+  .archive-content {
+    .image-wrap {
+      display: none; /* Tüm resimleri varsayılan olarak gizle */
+      position: relative;
+      height: 360px;
+      overflow: hidden;
+  
+      &.show { /* Seçilen resimleri göster */
+        display: block;
+      }
+    
+      .archive-wrap {
+        box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+        transition: 0.3s;
+  
+        &:hover {
+          box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.16);
+        }
+
+        figure {
+          background: #000;
+          overflow: hidden;
+          height: 230px;
+          position: relative;
+          border-radius: 4px 4px 0 0;
+          margin: 0;
+
+          &:hover {
+            img {
+              opacity: 0.4;
+              transition: 0.3s;
+            }
+          }
+        }
+      }
+    
+      .archive-info {
+        background: #fff;
+        text-align: center;
+        padding: 30px;
+        height: 90px;
+        border-radius: 0 0 3px 3px;
+
+        h4 {
+          font-size: 18px;
+          line-height: 1px;
+          font-weight: 700;
+          margin-bottom: 18px;
+          padding-bottom: 0;
+
+          a {
+            color: #333;
+
+            &:hover {
+              color: lighten($primary, 20);
+            }
+          }
+        }
+
+        p {
+          padding: 0;
+          margin: 0;
+          color: #b8b8b8;
+          font-weight: 500;
+          font-size: 14px;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+}

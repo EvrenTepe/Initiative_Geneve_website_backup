@@ -1,0 +1,83 @@
+/*--------------------------------------------------------------
+# documents
+--------------------------------------------------------------*/
+#documents {
+  background-color: $bg-primary;
+  height: 70vh;
+  padding: 60px 0 60px 0;
+
+    .raports-title, .statuts-title {
+        text-align: center;
+        padding-bottom: 10px;
+      
+        h3 {
+          margin-bottom: 10px;
+          padding-bottom: 10px;
+          position: relative;
+        }
+      
+        h3::before {
+          content: '';
+          position: absolute;
+          display: block;
+          width: 120px;
+          height: 1px;
+          background: #ddd;
+          bottom: 1px;
+          left: calc(50% - 60px);
+        }
+      
+        h3::after {
+          content: '';
+          position: absolute;
+          display: block;
+          width: 40px;
+          height: 3px;
+          background: $primary;
+          bottom: 0;
+          left: calc(50% - 20px);
+        }
+      
+        p {
+          margin-bottom: 0;
+          font-size: 14px;
+          color: lighten($default, 30);
+        }
+      }
+
+    i {
+        padding-right: 10px;
+    }
+
+    a {
+        font-size: larger;
+        color: $secondary;
+        padding: 5px 10px;
+
+        &:hover {
+            color: $primary;
+            border: solid;
+            border-radius: 5px;
+        }
+    }
+
+    .activite-raport {
+        padding-bottom: 10px;
+    }
+
+    .comptes-raport {
+        padding-bottom: 30px;
+    }
+
+    .statuts {
+        padding-bottom: 40px;
+    }
+
+    
+}
+
+@media (max-width: 991px) {
+    .statuts-title {
+        padding-top: 60px;
+    }
+}

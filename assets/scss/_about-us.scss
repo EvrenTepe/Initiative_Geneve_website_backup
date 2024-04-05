@@ -1,0 +1,61 @@
+/*--------------------------------------------------------------
+# about-us
+--------------------------------------------------------------*/
+#about-us-intro {
+    padding: 40px 0 30px 0;
+    
+    .row {
+        h3 {
+            font-weight: 600;
+            font-size: 26px;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        img {
+            padding-top: 40px;
+        }
+    }
+}
+
+#about-us-motivation {
+    padding: 30px 0 30px 0;
+
+    .row {
+        h3 {
+            font-weight: 600;
+            font-size: 26px;
+        }
+
+        p {
+            text-align: justify;
+        }
+    }
+}
+
+#about-us-perspective {
+    padding: 30px 0 30px 0;
+
+    .row {
+        h3 {
+            font-weight: 600;
+            font-size: 26px;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+
+            li {
+                padding-bottom: 10px;
+                text-align: justify;
+            }
+        }
+    }
+}

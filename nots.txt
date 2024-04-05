@@ -1,0 +1,102 @@
+<section id="announcements" class="announcements">
+      <div class="container">
+        <!-- Announcements Title and Intro -->
+        <div class="section-title">
+          <h2>Annonces</h2>
+          <!--<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus aliquid facilis moles....</p>-->
+        </div>
+
+        <!-- Announcements Slider -->
+        <div class="announcements-carousel swiper">
+          <div class="swiper-wrapper align-items-center">
+
+            <!-- Anonce-1 (Formation en Informatique) -->
+            <div class="swiper-slide">
+              <div class="d-flex align-items-stretch" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                <div class="card">
+                  <div class="card-img">
+                    <a href="assets/img/announcements/formation_informatique.jpg" class="glightbox"
+                      data-gall="card-img">
+                      <img src="assets/img/announcements/formation_informatique.jpg" alt="...">
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Formation en informatique</h5>
+                    <p class="fst-italic text-center">Va bientôt commencer</p>
+                    <!--<p class="card-text">Nous attendons votre participation aux formations de niveau base et avancé dans
+                      le domaine de l'informatique, qui dureront environ un an sous la houlette de notre association.
+                    </p>-->
+                    <a href="https://forms.gle/2dcucjqAw1dP2Ek59" target="_blank">S'inscrire</a>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Anonce-1 -->
+
+            <!-- Anonce-2 (Qu'est-ce que Pâques?) -->
+            <div class="swiper-slide">
+              <div class="d-flex align-items-stretch" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                <div class="card">
+                  <div class="card-img">
+                    <a href="assets/img/announcements/paque-2024.jpeg" class="glightbox" data-gall="card-img">
+                      <img src="assets/img/announcements/paque-2024.jpeg" alt="...">
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Qu'est-ce que Pâques?</h5>
+                    <p class="fst-italic text-center">15 Février 2024 <br>à 19h</p>
+                    <!--<p class="card-text">Qu'est-ce que Pâques? Quelle est son importance pour les chrétiens, qu'est-ce
+                      que cela signifie? Madame Véronique Egger-Sigg nous recontera tout sur Pâques et répondra à nos
+                      questions.</p>-->
+                    <a href="https://unige.zoom.us/j/65997710101?pwd=OWNDWUpDNVJIY1drNTcvWDNLUXNpdz09"
+                      target="_blank">Rejoindre</a>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Anonce-2 -->
+
+            <!-- Anonce-3 (Métier de conducteur) -->
+            <div class="swiper-slide">
+              <div class="d-flex align-items-stretch" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                <div class="card">
+                  <div class="card-img">
+                    <a href="assets/img/announcements/surucu_egitimi.jpg" class="glightbox" data-gall="card-img">
+                      <img src="assets/img/announcements/surucu_egitimi.jpg" alt="...">
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Métier de conducteur</h5>
+                    <p class="fst-italic text-center">15 Février 2024 <br>à 19h</p>
+                    <!--<p class="card-text">Nous apprécions votre participation à notre événement de partage d’expériences
+                      où vous pourrez apprendre tout ce que vous voulez savoir sur la conduite d’autobus et de camions.
+                    </p>-->
+                    <a href="https://unige.zoom.us/j/65997710101?pwd=OWNDWUpDNVJIY1drNTcvWDNLUXNpdz09"
+                      target="_blank">Rejoindre</a>
+                  </div>
+                </div>
+              </div>
+            </div><!-- Anonce-3 -->
+
+            <!-- Anonce-4 Example (Anonce name)
+            <div class="swiper-slide">
+              <div class="d-flex align-items-stretch" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                <div class="card">
+                  <div class="card-img">
+                    <a href="assets/img/announcements/surucu_egitimi.jpg" class="glightbox" data-gall="card-img">
+                      <img src="assets/img/announcements/surucu_egitimi.jpg" alt="...">
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Formation en informatique</h5>
+                    <p class="fst-italic text-center">Le jeudi 15 Février 20234 à 19h</p>
+                    <p class="card-text">La réunion de présentation de notre formation en informatique, qui se compose de deux niveaux et sera organisée par notre association.</p>
+                    <a href="https://unige.zoom.us/j/65997710101?pwd=OWNDWUpDNVJIY1drNTcvWDNLUXNpdz09" target="_blank">Rejoindre</a>
+                  </div>
+                </div>
+              </div>
+            </div> End Anonce-4 -->
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section>
